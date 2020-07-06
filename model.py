@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pickle
 
-dataset=pd.read_csv('D:\spyderf\homeprices.csv')
+dataset=pd.read_csv('homeprices.csv')
 dataset.head()
 
 #**Data Preprocessing: Fill NA values with median value of a column
